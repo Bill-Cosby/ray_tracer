@@ -9,7 +9,7 @@ void rayTracer::render()
 
             Ray ray(cameraPos, dir);
 
-            img->setPixel(x,y,traceRay(ray,0));
+            img->setPixel(x+400,y+300,traceRay(ray,0));
         }
     }
 }
@@ -25,6 +25,8 @@ sf::Color rayTracer::traceRay(Ray& ray, int depth)
     sphere* nearestSphere = NULL;
 
     nearestSphere = getNearestSphere(ray, distanceToIntersect);
+
+    if (nearestSphere!= NULL)return nearestSphere->color;
 }
 
 sphere* rayTracer::getNearestSphere(Ray& ray, float& distanceToIntersect)
@@ -43,4 +45,10 @@ sphere* rayTracer::getNearestSphere(Ray& ray, float& distanceToIntersect)
     }
 
     return nearestSphere;
+}
+
+rayTracer::rayTracer(sf::Image* image, sf::Vector3f cam)
+{
+    img = image;
+    cameraPos = cam;
 }
