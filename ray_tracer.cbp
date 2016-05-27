@@ -32,7 +32,15 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="VectorFunctions.cpp" />
+		<Unit filename="VectorFunctions.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="ray.cpp" />
+		<Unit filename="ray.hpp" />
+		<Unit filename="rayTracer.cpp" />
+		<Unit filename="rayTracer.hpp" />
+		<Unit filename="sphere.cpp" />
+		<Unit filename="sphere.hpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
