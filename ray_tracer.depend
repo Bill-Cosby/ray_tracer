@@ -1,30 +1,37 @@
 # depslib dependency file v1.0
-1464380374 source:c:\ray_tracer\main.cpp
+1464432460 source:c:\ray_tracer\main.cpp
 	<iostream>
 	"rayTracer.hpp"
 
-1464379389 source:c:\ray_tracer\ray.cpp
+1464341295 source:c:\ray_tracer\ray.cpp
 	"ray.hpp"
 
-1464379389 c:\ray_tracer\ray.hpp
+1464341356 c:\ray_tracer\ray.hpp
 	"VectorFunctions.h"
 
-1464379388 c:\ray_tracer\vectorfunctions.h
+1464341548 c:\ray_tracer\vectorfunctions.h
 	<SFML/Graphics.hpp>
 	<math.h>
 
-1464380352 source:c:\ray_tracer\raytracer.cpp
+1464432141 source:c:\ray_tracer\raytracer.cpp
 	"rayTracer.hpp"
 
-1464379894 c:\ray_tracer\raytracer.hpp
-	"sphere.hpp"
+1464432539 c:\ray_tracer\raytracer.hpp
+	"light.hpp"
+	<iostream>
 
-1464379894 c:\ray_tracer\sphere.hpp
+1464430605 c:\ray_tracer\sphere.hpp
 	"ray.hpp"
 
-1464379389 source:c:\ray_tracer\sphere.cpp
+1464341488 source:c:\ray_tracer\sphere.cpp
 	"sphere.hpp"
 
-1464379388 source:c:\ray_tracer\vectorfunctions.cpp
+1464341548 source:c:\ray_tracer\vectorfunctions.cpp
 	"VectorFunctions.h"
+
+1464429705 c:\ray_tracer\light.hpp
+	"sphere.hpp"
+
+1464430279 source:c:\ray_tracer\light.cpp
+	"light.hpp"
 
