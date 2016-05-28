@@ -34,6 +34,8 @@
 		</Compiler>
 		<Unit filename="VectorFunctions.cpp" />
 		<Unit filename="VectorFunctions.h" />
+		<Unit filename="light.cpp" />
+		<Unit filename="light.hpp" />
 		<Unit filename="main.cpp" />
 		<Unit filename="ray.cpp" />
 		<Unit filename="ray.hpp" />
