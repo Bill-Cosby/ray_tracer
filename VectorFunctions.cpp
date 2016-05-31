@@ -30,7 +30,7 @@ sf::Vector3f subtract(sf::Vector3f v1, sf::Vector3f v2)
     return sf::Vector3f(v1.x - v2.x , v1.y - v2.y , v1.z - v2.z);
 }
 
-sf::Vector3f normalize(sf::Vector3f vec)
+sf::Vector3f normalize(sf::Vector3f &vec)
 {
     if (magnitude(vec,sf::Vector3f(0,0,0)) != 0){
         sf::Vector3f normalized;
@@ -50,4 +50,9 @@ sf::Vector3f normalize(sf::Vector3f vec)
 sf::Vector3f inverse(sf::Vector3f vec)
 {
     return sf::Vector3f(-vec.x,-vec.y,-vec.z);
+}
+
+float distance(sf::Vector3f p1, sf::Vector3f p2)
+{
+    return sqrt(pow(p1.x-p2.x,2) + pow(p1.y-p2.y,2) + pow(p1.z-p2.z,2));
 }
