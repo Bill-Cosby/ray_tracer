@@ -13,7 +13,8 @@ int main()
 
     world.lights.push_back(Light(sf::Vector3f(-5,0,5), sf::Color::Yellow));
 
-    world.primitives.push_back(new sphere(sf::Vector3f(-7.5f,2.0f,5.0f),3.0f,1,sf::Color::Yellow));
+    world.primitives.push_back(new sphere(sf::Vector3f(-7.5f,2.0f,5.0f),3.0f,1,sf::Color::Green));
+    world.primitives.push_back(new sphere(sf::Vector3f(7.5f,2.0f,5.0f),3.0f,1,sf::Color::Blue));
     //world.primitives.push_back(new Box(sf::Vector3f(-7.5f,2.0f,5.0f),1.0f,.5,sf::Color::White));
     world.primitives.push_back(new Box(sf::Vector3f(0,-4,0),1.0f,1.5,sf::Color::Red));
     world.primitives.push_back(new Box(sf::Vector3f(1,-4,0),1.0f,1.5,sf::Color::Blue));

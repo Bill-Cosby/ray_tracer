@@ -2,9 +2,14 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Release" />
-	<File name="main.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="sphere.cpp" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="2083" topLine="22" />
+			<Cursor1 position="1320" topLine="39" />
+		</Cursor>
+	</File>
+	<File name="VectorFunctions.cpp" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="633" topLine="10" />
 		</Cursor>
 	</File>
 	<File name="light.hpp" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -12,19 +17,24 @@
 			<Cursor1 position="566" topLine="0" />
 		</Cursor>
 	</File>
+	<File name="main.cpp" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="488" topLine="9" />
+		</Cursor>
+	</File>
+	<File name="VectorFunctions.h" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="230" topLine="0" />
+		</Cursor>
+	</File>
 	<File name="light.cpp" open="1" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="132" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="ray.hpp" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="rayTracer.cpp" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="342" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="VectorFunctions.cpp" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="633" topLine="10" />
+			<Cursor1 position="1191" topLine="42" />
 		</Cursor>
 	</File>
 	<File name="ray.cpp" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -34,12 +44,7 @@
 	</File>
 	<File name="rayTracer.hpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="32" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="VectorFunctions.h" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="230" topLine="0" />
+			<Cursor1 position="636" topLine="3" />
 		</Cursor>
 	</File>
 	<File name="sphere.hpp" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -47,14 +52,9 @@
 			<Cursor1 position="986" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="rayTracer.cpp" open="1" top="1" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="ray.hpp" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="1067" topLine="22" />
-		</Cursor>
-	</File>
-	<File name="sphere.cpp" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1320" topLine="39" />
+			<Cursor1 position="342" topLine="0" />
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>
