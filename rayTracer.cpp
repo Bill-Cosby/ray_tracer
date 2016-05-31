@@ -16,7 +16,7 @@
 
 void rayTracer::render()
 {
-    img->create(600,800,sf::Color::Black);
+    //img->create(600,800,sf::Color::Black);
     if (nextLine > 600)nextLine = 0;
 
     for (int y = 0; y < 600; y++){
@@ -168,8 +168,8 @@ rayTracer::rayTracer()
 
     ViewPlaneX1 = -8;
     ViewPlaneX2 = 8;
-    ViewPlaneY1 = currentY = 5;
-    ViewPlaneY2 = -5;
+    ViewPlaneY1 = currentY = 6;
+    ViewPlaneY2 = -6;
 
     DeltaX = (float)(ViewPlaneX2 - ViewPlaneX1) / 800;
     DeltaY = (float)(ViewPlaneY2 - ViewPlaneY1) / 600;
